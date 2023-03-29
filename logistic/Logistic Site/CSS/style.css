@@ -1,0 +1,1562 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+  font-family: "Alibaba Sans";
+  src: url("../Fonts/AlibabaSans-Regular.ttf");
+  font-family: "Golos";
+  src: url("../Fonts/Golos-Text_DemiBold.ttf");
+  src: url("../Fonts/Golos-Text_Regular.ttf");
+  src: url("../Fonts/Golos-Text_Medium.ttf");
+}
+.wrapper {
+  background-image: url("../IMG/back_IMG.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+/* ------------------------ HEADER ------------------- */
+
+.header_up{
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.header_up_content {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 17px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  
+}
+
+.header_up_content_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_up_item {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #75787B;
+}
+.header_up_item:hover {
+  color: #75787B;
+}
+
+.header_down_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 80;
+}
+
+.hamburger .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+
+.navigation_and_other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation_item {
+  margin-left: 18px;
+
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.navigation_item.no_left{
+  margin-left: 0px;
+}
+
+.navigation_item:hover {
+  color: #FFFFFF;
+}
+
+.navigation_item.for_phone {
+  display: none;
+}
+
+.phone_and_work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.number {
+  font-family: "Alibaba Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #FAFAFA;
+}
+.number:hover {
+  color: #FAFAFA;
+}
+
+.work {
+  font-family: "Alibaba Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: rgba(250, 250, 250, 0.3);
+}
+
+.button {
+  display: inline-block;
+  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  border-radius: 14px;
+  display: block;
+}
+
+.button_item {
+  display: block;
+  padding: 13px 16px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}
+.button_item:hover {
+  color: #FAFAFA;
+}
+
+
+/* ------------------------ GENERAL ------------------- */
+
+.general{
+  position: relative;
+  overflow: hidden;
+}
+
+.general_container{
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.general_content {
+  padding-top: 50px;
+  padding-bottom: 130px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.general_content_left {
+  max-width: 580px;
+}
+
+.general_mainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  white-space: nowrap;
+  color: #FFFFFF;
+}
+
+.general_subText {
+  margin-top: 10px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135%;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.buttons_wrapper {
+  padding-top: 48px;
+  max-width: 460px;
+}
+
+.buttons_wrapper_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 14px;
+}
+
+.callBack_button {
+  display: inline-block;
+  background: #284DD4;
+  border-radius: 14px;
+}
+
+.callBack_button_item {
+  display: inline-block;
+  padding: 16px 24px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FAFAFA;
+}
+.callBack_button_item:hover {
+  color: #FAFAFA;
+}
+
+.arrow_right_for_adaptive {
+  display: none;
+}
+
+.button2_item {
+  position: relative;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.button2_item {
+  -webkit-transition: #FFFFFF;
+  -o-transition: #FFFFFF;
+  transition: #FFFFFF;
+}
+
+.button2_item::before {
+  content: url("../IMG/arrow_right.svg");
+  position: absolute;
+  left: -15px;
+  top: 0px;
+}
+
+.general_right {
+  max-width: none;
+}
+
+
+
+.general_right_img {
+  width: 212%;
+  overflow: hidden;
+  max-width: none;
+}
+
+/* ------------------------ SAVE TIME ------------------- */
+
+.save_time {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.elipse {
+  position: absolute;
+  left: 0px;
+  top: -107px;
+  display: none;
+}
+
+.save_time_content {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.save_time_left {
+  max-width: 680px;
+}
+
+.saveTime_mainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  color: #121212;
+}
+
+.founderCompany {
+  margin-top: 14px;
+  margin-bottom: 22px;
+  position: relative;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.76);
+}
+
+.founderCompany::before {
+  content: url("../IMG/black_line.svg");
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+}
+
+.saveTime_subText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135%;
+  color: rgba(18, 18, 18, 0.76);
+}
+
+.save_time_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 18px;
+}
+
+.Raiting_Card {
+  background: #FFFFFF;
+  -webkit-box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
+          box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
+  border-radius: 10px;
+}
+
+.Raiting_Card_content {
+  padding: 10px 27px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.Raiting_Card_Img {
+  width: 45%;
+  height: 45%;
+}
+
+.raiting {
+  width: 45%;
+  height: 45%;
+}
+
+
+/* ------------------------ AUTO PARK ------------------- */
+
+
+.autopark {
+  padding-bottom: 56px;
+}
+
+.autoParkMainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.autoParkSubText {
+  margin-bottom: 14px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.autopark_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.autopark_Card {
+  position: relative;
+  margin-top: 26px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
+          box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
+  border-radius: 12px;
+  width: 400px;
+}
+
+.arrowTop-Right {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+
+.autopark_Card_content {
+  padding-left: 22px;
+  padding-bottom: 22px;
+}
+
+.autoImg_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.specifications {
+  margin-bottom: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.specifications.forshortText {
+  height: 78px;
+}
+
+.specifications_item {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+.specifications_item span {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.56);
+}
+
+.specifications_spanitem{
+  font-family: 'Golos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  
+  color: rgba(18, 18, 18, 0.56);
+}
+
+
+.calculateCost_button {
+  padding: 13px 16px;
+  display: inline-block;
+  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  border-radius: 14px;
+}
+
+.calculateCost_buttonItem {
+  display: inline-block;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}
+
+/* ------------------------ TYPES OF TRANSPORTATION CONTENT ------------------- */
+
+
+.types_of_transportation_content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 580px;
+  grid-template-rows: 580px;
+}
+
+.types_of_transportation_content > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.types_of_transportation_content > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.types_of_transportation_right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.types_of_transportation_right > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.types_of_transportation_right > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.types_of_transportation_right > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.types_of_transportation_right > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.transportation_card.one {
+  height: 100%;
+  background-image: url("../IMG/transportation_img1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transportation_card.two {
+  height: 100%;
+  background-image: url("../IMG/transportation_img2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transportation_card.three {
+  height: 100%;
+  background-image: url("../IMG/transportation_img3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transportation_card.four {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  background-image: url("../IMG/transportation_img4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+}
+
+.transportation_card_content {
+  padding-bottom: 20px;
+  padding-left: 28px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 367px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.transportation_card_content.fours_content {
+  max-width: none;
+  padding-left: 28px;
+  padding-bottom: 20px;
+}
+
+.transportation_card_MainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.transportation_card_SubText {
+  margin-top: 14px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+
+/* ------------------------ WHY CHOOSE US ------------------- */
+
+
+.why_choose_us {
+  margin-top: 22px;
+  padding-bottom: 90px;
+}
+
+.why_choose_us_MainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.why_choose_us_SubText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142%;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.why_choose_us_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.why_choose_us_card {
+  margin-top: 16px;
+  width: 302px;
+  height: 278px;
+  background: #FFFFFF;
+  border: 1px solid rgba(18, 18, 18, 0.05);
+  -webkit-box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
+          box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
+  border-radius: 12px;
+}
+
+.why_choose_us_card_content {
+  padding-left: 18px;
+  padding-top: 14px;
+  padding-right: 18px;
+}
+
+.why_choose_us_img_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.why_choose_us_text {
+  margin-top: 24px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135%;
+  color: #121212;
+}
+.why_choose_us_text span {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 135%;
+  color: #284DD4;
+}
+
+.why_choose_us_text.three {
+  margin-top: 0px;
+}
+
+.why_choose_us_text.four {
+  margin-top: 10px;
+}
+
+/* ------------------------ THANKSGIVING ------------------- */
+
+.thanksgiving {
+  margin-top: 22px;
+  padding-bottom: 67px;
+}
+
+.thanksgiving_MainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.thanksgiving_SubText {
+  margin-bottom: 47px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.thanksgiving_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thanksgiving_card {
+  margin-top: 16px;
+}
+
+/* ------------------------ CALCULATION ------------------- */
+
+.calculation {
+  padding-bottom: 70px;
+}
+
+.calculationMainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.calculationSubText {
+  margin-bottom: 28px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142%;
+  color: #121212;
+}
+
+.calculation_form_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculation_form_padding_wrapper {
+  padding: 28px 24px;
+}
+
+.calculation_form {
+  background: #FFFFFF;
+  border: 1px solid #F2F3F5;
+  -webkit-box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
+          box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
+  border-radius: 24px;
+}
+
+.calculationFormMainText {
+  margin-bottom: 12px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130.5%;
+  text-align: center;
+}
+.calculationFormMainText span {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130.5%;
+}
+
+.calculation_form_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 946px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calculation_input_wrapper {
+  margin-top: 22px;
+  position: relative;
+  cursor: pointer;
+  max-width: 460px;
+  width: 100%;
+}
+
+.calculation_input_wrapper.widhMax {
+  margin-top: 22px;
+  position: relative;
+  cursor: pointer;
+  max-width: 946px;
+  width: 100%;
+}
+
+.label {
+  position: absolute;
+  top: 1em;
+  left: 1.5em;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(41, 45, 50, 0.3);
+}
+
+.labelData {
+  position: absolute;
+  top: 11px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.calculation_input {
+  width: 100%;
+  background: -o-linear-gradient(bottom, #F8F8F8, #F8F8F8), #E1E3E6;
+  background: -webkit-gradient(linear, left bottom, left top, from(#F8F8F8), to(#F8F8F8)), #E1E3E6;
+  background: linear-gradient(0deg, #F8F8F8, #F8F8F8), #E1E3E6;
+  border-radius: 12px;
+  padding: 24px 0px 10px 16px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #292D32;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  width: 28px;
+  height: 28px;
+  padding-right: 16px;
+}
+
+.formButton_and_agreement {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 22px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formButton {
+  display: inline-block;
+  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  border-radius: 14px;
+}
+
+.formButton_item {
+  padding: 13px 16px;
+  display: inline-block;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}
+
+.agreement {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(18, 18, 18, 0.66);
+}
+
+.turn_over {
+  margin-top: 25px;
+}
+
+.turn_over_for_small_notebook {
+  display: none;
+}
+
+.turn_over_for_tablet {
+  display: none;
+}
+
+/* ------------------------ FOOTER ------------------- */
+
+.footer {
+  background-image:url("../IMG/footer_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer_container {
+  max-width: 1310px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.footer_content {
+  padding-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer_SectionMainText {
+  margin-bottom: 8px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer_Section li {
+  margin-top: 8px;
+}
+
+.footer_SectionItem {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer_Section_socail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.gmail_two {
+  position: relative;
+  margin-top: 8px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: #FFFFFF;
+}
+
+.footer_phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.tel_two {
+  margin-top: 8px;
+  position: relative;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: #FFFFFF;
+}
+
+.footer_button {
+  display: inline-block;
+  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  border-radius: 14px;
+}
+
+.footer_button_Item {
+  padding: 13px 16px;
+  display: inline-block;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}
+
+.Privacy_Policy {
+  margin-top: 53px;
+}
+
+.Privacy_PolicyMainText {
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.44);
+}
+
+.Privacy_PolicySubText {
+  margin-top: 5px;
+  padding-bottom: 23px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.44);
+}
+
+@media (max-width: 395px) {
+  .general_mainText, .saveTime_mainText, .autoParkMainText, .why_choose_us_MainText, .thanksgiving_MainText, .calculationMainText {
+    font-size: 28px !important;
+  }
+  .general_subText, .saveTime_subText, .autoParkSubText, .transportation_card_SubText, .why_choose_us_SubText, .why_choose_us_text, .why_choose_us_text span, .thanksgiving_SubText, .calculationSubText, .calculationFormMainText, .calculationFormMainText span, .agreement {
+    font-size: 12px !important;
+  }
+  .transportation_card_MainText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .thanksgiving {
+    padding-bottom: 30px;
+  }
+  .why_choose_us {
+    padding-bottom: 0px;
+  }
+  .save_time {
+    padding-bottom: 30px;
+  }
+  .thanksgiving_SubText {
+    margin-bottom: 0px;
+  }
+
+  .thanksgiving_content{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .thanksgiving_card{
+    width: 90% !important;
+  }
+}
+
+@media (max-width:580px) {
+  .elipse{
+    top: -90px;
+  }
+}
+
+@media (max-width: 739px) {
+  .footer_content {
+    display: block;
+  }
+  .footer_Section {
+    margin-top: 40px;
+  }
+  .footer_Section_socail {
+    margin-top: 22px;
+  }
+  .footer_button {
+    margin-top: 40px;
+  }
+
+  .footer_logo{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+
+@media (max-width:768px) {
+
+  .thanksgiving_content{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .thanksgiving_card{
+    width: 50%;
+  }
+}
+
+@media (max-width: 829px) {
+  .calculateCost_button {
+    width: 100%;
+  }
+  .calculateCost_buttonItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 860px) {
+  .types_of_transportation_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transportation_card.one, .transportation_card.three, .transportation_card.four {
+    height: 279px;
+  }
+  .transportation_card_content {
+    max-width: 100%;
+  }
+  .types_of_transportation_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .transportation_card.two {
+    height: 442px;
+  }
+}
+@media (max-width: 616px) {
+  .formButton_and_agreement {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formButton {
+    width: 100%;
+  }
+  .formButton_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 999px) {
+  .turn_over_for_tablet {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+  }
+  .turn_over_for_small_notebook {
+    display: none !important;
+  }
+  .calculation_input_wrapper {
+    max-width: none;
+  }
+}
+@media (max-width: 1017px) {
+  .turn_over {
+    display: none;
+  }
+  .turn_over_for_small_notebook {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+  }
+}
+@media (max-widtH: 1023px) {
+    
+  .general_content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 0px;
+  }
+  .general_content_left {
+    margin-top: 58px;
+    padding: 0px 15px;
+  }
+  .header_up_content {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block;
+  }
+  .navigation_and_other {
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #040404;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    color: black;
+    z-index: 30;
+  }
+  .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            gap: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navigation_item {
+    font-size: 16px !important;
+  }
+  .active {
+    left: 0%;
+    color: black;
+  }
+  .lock {
+    overflow: hidden;
+  }
+  .logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .general_content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .general_mainText {
+    font-size: 38px;
+    white-space: normal;
+  }
+  .buttons_wrapper_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: none;
+  }
+  .buttons_wrapper {
+    max-width: 100%;
+  }
+  .callBack_button {
+    width: 100%;
+  }
+  .callBack_button_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button2 {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 14px;
+  }
+  .button2_item {
+    padding: 16px 0px;
+  }
+  .button2_item::before {
+    display: none;
+  }
+  .button2_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 8px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .arrow_right_for_adaptive {
+    display: inline-block;
+  }
+  .elipse {
+    display: block;
+  }
+  .navigation_item.for_phone {
+    display: block;
+  }
+
+  
+  .header_down_content{
+  padding-top: 10px;
+}
+
+.navigation_item{
+  margin-left: 0px;
+  
+}
+
+.button.forPhone{
+  margin-top: 18px;
+}
+
+}
+@media (max-widtH: 1172px) {
+  .navigation_item {
+    font-size: 11px;
+  }
+  .header_down_content {
+    white-space: nowrap;
+  }
+  .logo {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1222px) {
+  .save_time_right {
+    margin-top: 28px;
+  }
+}
+@media (max-width: 1229px) {
+  .autopark_content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media (max-width: 1237px) {
+  .why_choose_us_content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+
+@media (min-width: 2440px) {
+  .general_right_img{
+        width: 230%;
+  }
+}
