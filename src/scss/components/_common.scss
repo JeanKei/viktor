@@ -1,0 +1,119 @@
+
+.breadcrumb__wrap {
+  margin-top: 20px;
+  min-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #4f4f4f;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  a {
+    color: #4f4f4f;
+  }
+}
+.breadcrumb__title  {
+  padding-bottom: 10px;
+  color: #4f4f4f;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.common {
+  background-color: #F2F3F7;
+}
+.common__wrapper {
+  padding: 70px 0 70px 0;
+  p {
+    margin-bottom: 20px;
+    word-spacing: normal;
+    color: #4f4f4f;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  ul {
+    list-style: disc;
+    margin: 0 0 10px 20px;
+    margin-bottom: 20px;
+    word-spacing: normal;
+    color: #4f4f4f;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  ol {
+    margin: 0 0 10px 20px;
+    margin-bottom: 20px;
+    word-spacing: normal;
+    color: #4f4f4f;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4f4f4f;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+  }
+  a {
+    color: #284DD4;
+  }
+}
+
+.common__header {
+  .header_up {
+    background-color: #1a1c20;
+  }
+  .header_up_item {
+    color:  #ffffff;
+  }
+  .header_up_item:hover {
+    color: #75787B;
+  }
+  .header_up_item--not{
+    color: #ffffff;
+  }
+  .header_up_item--not:hover {
+    color: #ffffff;
+  }
+  .menu-item {
+    margin-left: 18px;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    a {
+      color: #4f4f4f;
+      transition: color 0.3s ease-in-out;
+    }
+
+  }
+  .menu-item a:hover {
+    color: #284DD4;
+  }
+
+  .number {
+    color: #4f4f4f;
+  }
+  .work {
+    color: #4f4f4f;
+  }
+  .header_content {
+    margin-top: 20px;
+  }
+}

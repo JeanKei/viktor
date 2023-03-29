@@ -14,7 +14,7 @@
 // ------------------------ HEADER ------------------- //
 
 .wrapper {
-    background-image: url("../IMG/back_IMG.png");
+    background-image: url("../img/back_img.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@
 }
 
 .button2_item::before {
-    content: url("../IMG/arrow_right.svg");
+    content: url("../img/arrow_right.svg");
     position: absolute;
     left: -15px;
     top: 0px;
@@ -329,7 +329,7 @@
     left: 0px;
     top: -110px;
     display: none;
-    
+
 }
 
 .container {}
@@ -373,7 +373,7 @@
 }
 
 .founderCompany::before {
-    content: url("../IMG/black_line.svg");
+    content: url("../img/black_line.svg");
     position: absolute;
     left: 0px;
     bottom: -10px;
@@ -409,7 +409,7 @@
     gap: 16px;
 }
 
-.Raiting_Card_Img {
+.Raiting_Card_img {
     width: 45%;
     height: 45%;
 }
@@ -479,14 +479,14 @@
     padding-bottom: 22px;
 }
 
-.autoImg_wrapper {
+.autoimg_wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.autoImg {}
+.autoimg {}
 
 .specifications {
     margin-bottom: 36px;
@@ -562,7 +562,7 @@
 
 .transportation_card.one {
     height: 100%;
-    background-image: url("../IMG/transportation_img1.png");
+    background-image: url("../img/transportation_img1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -570,7 +570,7 @@
 
 .transportation_card.two {
     height: 100%;
-    background-image: url("../IMG/transportation_img2.png");
+    background-image: url("../img/transportation_img2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -579,7 +579,7 @@
 
 .transportation_card.three {
     height: 100%;
-    background-image: url("../IMG/transportation_img3.png");
+    background-image: url("../img/transportation_img3.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -588,7 +588,7 @@
 .transportation_card.four {
     display: grid;
     height: 100%;
-    background-image: url("../IMG/transportation_img4.png");
+    background-image: url("../img/transportation_img4.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1058,7 +1058,7 @@
     gap: 12px;
 }
 
-.footerMail_Img{}
+.footerMail_img{}
 
 .gmail_two {
     position: relative;
@@ -1170,7 +1170,7 @@
 
     .thanksgiving{
         padding-bottom: 30px;
-        
+
     }
 
     .why_choose_us{
@@ -1217,21 +1217,21 @@
         align-items: center;
     }
 
-  
 
-    
+
+
 }
 
 @media (max-width:860px) {
     .types_of_transportation_content{
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .transportation_card.one,.transportation_card.three,.transportation_card.four{
         height: 279px;
-        
+
     }
 
     .transportation_card_content{
@@ -1246,7 +1246,7 @@
     .transportation_card.two{
         height: 442px;
     }
-    
+
 }
 
 @media (max-width:616px) {
@@ -1354,7 +1354,7 @@
 
     .lock {
         overflow: hidden;
-      }   
+      }
 
     .logo {
         width: 100%;
@@ -1366,7 +1366,7 @@
     .general_content{
         justify-content: center;
         align-items: center;
-       
+
     }
 
     .general_mainText{
@@ -1399,9 +1399,9 @@
     }
 
     .button2_item{
-       
+
         padding: 16px 0px;
-       
+
     }
 
     .button2_item::before{
@@ -1419,11 +1419,11 @@
         display: inline-block;
     }
 
-   
+
     .elipse{
         display: block;
     }
-   
+
     .navigation_item.for_phone{
         display: block;
     }
@@ -1451,7 +1451,7 @@
         margin-top: 28px;
     }
 
-    
+
 }
 
 

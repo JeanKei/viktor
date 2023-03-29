@@ -1,25 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-@font-face {
-  font-family: "Alibaba Sans";
-  src: url("../Fonts/AlibabaSans-Regular.ttf");
-  font-family: "Golos";
-  src: url("../Fonts/Golos-Text_DemiBold.ttf");
-  src: url("../Fonts/Golos-Text_Regular.ttf");
-  src: url("../Fonts/Golos-Text_Medium.ttf");
-}
 .wrapper {
   background-image: url("../img/back_img.png");
   background-position: center;
@@ -51,15 +30,15 @@
           justify-content: flex-end;
 
 }
-
-.header_up_content_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header_up_content_wrapper-link {
   display: flex;
-  gap: 22px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap:22px;
+}
+.header_up_content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .header_up_item {
@@ -69,9 +48,13 @@
   font-size: 13px;
   line-height: 16px;
   color: #75787B;
+  transition: color 0.3s ease-in-out;
 }
 .header_up_item:hover {
-  color: #75787B;
+  color: #ffffff;
+}
+.header_up_item--not {
+  color: #ffffff;
 }
 
 .header_down_content {
@@ -120,15 +103,34 @@
           align-items: center;
 }
 
-.navigation_item {
+.menu-item {
   margin-left: 18px;
-
   font-family: "Golos";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #FFFFFF;
+  a {
+    color: #FFFFFF;
+    transition: color 0.3s ease-in-out;
+  }
+}
+.menu-item a:hover {
+  color: #284DD4;
+}
+.current_page_item a {
+  color: #007AFF;
+}
+.navigation_item {
+  margin-left: 18px;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+
 }
 
 .navigation_item.no_left{
@@ -1168,6 +1170,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 12px;
   line-height: 14px;
   color: rgba(255, 255, 255, 0.44);
+  transition: color 0.3s ease-in-out;
+}
+.Privacy_PolicyMainText:hover {
+  color: #284DD4;
 }
 
 .Privacy_PolicySubText {

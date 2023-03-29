@@ -26,7 +26,7 @@ const {
   readFileSync
 } = require('fs');
 const typograf = require('gulp-typograf');
-const webp = require('gulp-webp');
+// const webp = require('gulp-webp');
 const mainSass = gulpSass(sass);
 const webpackStream = require('webpack-stream');
 const plumber = require('gulp-plumber');
@@ -39,8 +39,8 @@ const srcFolder = './src';
 const buildFolder = './app';
 const paths = {
   srcSvg: `${srcFolder}/img/svg/**.svg`,
-  srcImgFolder: `${srcFolder}/img`,
-  buildImgFolder: `${buildFolder}/img`,
+  srcimgFolder: `${srcFolder}/img`,
+  buildimgFolder: `${buildFolder}/img`,
   srcScss: `${srcFolder}/scss/**/*.scss`,
   buildCssFolder: `${buildFolder}/css`,
   srcFullJs: `${srcFolder}/js/**/*.js`,
@@ -86,7 +86,7 @@ const svgSprites = () => {
         }
       },
     }))
-    .pipe(dest(paths.buildImgFolder));
+    .pipe(dest(paths.buildimgFolder));
 }
 
 // scss styles
@@ -216,7 +216,7 @@ const resources = () => {
 }
 
 const images = () => {
-  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg}`])
+  return src([`${paths.srcimgFolder}/**/**.{jpg,jpeg,png,svg}`])
     .pipe(gulpif(isProd, image([
       image.mozjpeg({
         quality: 80,
@@ -226,14 +226,14 @@ const images = () => {
         optimizationLevel: 2
       }),
     ])))
-    .pipe(dest(paths.buildImgFolder))
+    .pipe(dest(paths.buildimgFolder))
 };
 
-const webpImages = () => {
-  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png}`])
-    .pipe(webp())
-    .pipe(dest(paths.buildImgFolder))
-};
+// const webpImages = () => {
+//   return src([`${paths.srcimgFolder}/**/**.{jpg,jpeg,png}`])
+//     .pipe(webp())
+//     .pipe(dest(paths.buildimgFolder))
+// };
 
 const htmlInclude = () => {
   return src([`${srcFolder}/*.html`])
@@ -260,13 +260,13 @@ const watchFiles = () => {
   watch(`${paths.srcPartialsFolder}/*.html`, htmlInclude);
   watch(`${srcFolder}/*.html`, htmlInclude);
   watch(`${paths.resourcesFolder}/**`, resources);
-  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg}`, images);
-  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png}`, webpImages);
+  watch(`${paths.srcimgFolder}/**/**.{jpg,jpeg,png,svg}`, images);
+  // watch(`${paths.srcimgFolder}/**/**.{jpg,jpeg,png}`, webpImages);
   watch(paths.srcSvg, svgSprites);
 }
 
 const cache = () => {
-  return src(`${buildFolder}/**/*.{css,js,svg,png,jpg,jpeg,webp,woff2}`, {
+  return src(`${buildFolder}/**/*.{css,js,svg,png,jpg,jpeg,woff2}`, {
       base: buildFolder
     })
     .pipe(rev())
@@ -316,11 +316,11 @@ const toProd = (done) => {
   done();
 };
 
-exports.default = series(clean, htmlInclude, scripts, styles, resources, images, webpImages, svgSprites, watchFiles);
+exports.default = series(clean, htmlInclude, scripts, styles, resources, images, svgSprites, watchFiles);
 
-exports.backend = series(clean, htmlInclude, scriptsBackend, stylesBackend, resources, images, webpImages, svgSprites)
+exports.backend = series(clean, htmlInclude, scriptsBackend, stylesBackend, resources, images, svgSprites)
 
-exports.build = series(toProd, clean, htmlInclude, scripts, styles, resources, images, webpImages, svgSprites, htmlMinify);
+exports.build = series(toProd, clean, htmlInclude, scripts, styles, resources, images, svgSprites, htmlMinify);
 
 exports.cache = series(cache, rewrite);
 

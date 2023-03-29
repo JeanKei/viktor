@@ -1,0 +1,27 @@
+/* CeraPro */
+
+@font-face {
+  font-family: 'Alibaba Sans';
+  src: url('AlibabaSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('Golos-Text_Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Golos';
+  src: url('Golos-Text_DemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Golos';
+  src: url('Golos-Text_Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

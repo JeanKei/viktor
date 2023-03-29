@@ -1,0 +1,52 @@
+.blogmain ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blogmain .categories {
+  padding-bottom: 10px;
+  color: #4f4f4f;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+
+.blogmain .categories ul {
+  padding-top: 50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.blogmain .cat-item {
+  background: #FFFFFF;
+  box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
+  border-radius: 12px;
+  padding: 10px;
+  width: 180px;
+  height: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  // text-transform: uppercase;
+  a {
+    color: #4f4f4f;
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.blogmain .cat-item:hover {
+  a {
+    color: #284DD4;
+  }
+}

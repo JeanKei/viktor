@@ -1,0 +1,373 @@
+.blog {
+  background-color: #F2F3F7;
+  padding-bottom: 315px;
+}
+
+.blog_container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.blogGenText {
+  padding-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.blogGenText.blog_news {
+  padding-top: 14px;
+}
+
+.blog_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog_card {
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  margin-top: 30px;
+  max-width: 404px;
+}
+
+.blog_card img{
+  max-width: 404px;
+  max-height: 207px;
+  object-fit: cover;
+}
+
+.blogCardDown {
+  padding: 14px;
+  background: #FAFAFA;
+  border: 1px solid rgba(18, 18, 18, 0.05);
+  box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
+  border-radius: 0px 0px 16px 16px;
+}
+
+.blogCardText {
+  min-height: 70px;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+  max-width: 300px;
+}
+.blogCardText:hover {
+  color: #007AFF;
+}
+
+.blog_themes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog_theme a {
+  background: #ECEDF2;
+  border-radius: 31px;
+  padding: 5px 15px;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog_theme a:hover {
+  color: #007AFF;
+}
+
+.blogThemText {
+  padding: 5px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 144%;
+  color: #000000;
+}
+
+.blog_news {
+  background-color: #F2F3F7;
+}
+
+.blog_news_content {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog_news_left {
+  max-width: 850px;
+}
+
+.blog_news_img img {
+  width: 100%;
+}
+.wp-block-image img {
+  width: 100%!important;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.blog_news_texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog_news_left h1 {
+  margin: 24px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #121212;
+}
+
+.blog_news_left p{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144%;
+  color: #121212;
+}
+
+.blog_news_left p {
+  margin: 18px 0px;
+}
+
+.blog_news_left ul {
+  list-style: disc;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144%;
+  color: #121212;
+  padding-left: 15px;
+}
+
+.blog_news_left h2 {
+  margin: 20px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  color: #121212;
+}
+
+.blog_news_themes {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.blog_news_themes .blog_theme a {
+  background: #ffffff;
+  border-radius: 31px;
+  padding: 12px 24px;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog_news_themes .blog_theme a:hover {
+  color: #007AFF;
+}
+
+.blog_news_theme {
+  background: #FDFDFD;
+  border-radius: 30px;
+}
+
+.blog_news_themeText {
+  padding: 12px 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: #121212;
+}
+
+#popular_posts img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+#popular_posts p {
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #121212;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#popular_posts a:hover p {
+  color: #007AFF;
+}
+
+.blog_news_right {
+  max-width: 297px;
+}
+
+.search_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.search_container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../IMG/search.svg");
+  background-size: cover;
+}
+
+.search {
+  border: 1px solid rgba(18, 18, 18, 0.15);
+  border-radius: 40px;
+  padding: 16px 0px 16px 40px;
+  width: 100%;
+}
+
+.search::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.3);
+}
+
+.search::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.3);
+}
+
+.blog_news_rightGenText {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #121212;
+}
+
+.blog_news_rightSubText {
+  margin-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: rgba(18, 18, 18, 0.85);
+}
+
+.blog_news_gmail {
+  margin-bottom: 14px;
+  border: 1px solid rgba(18, 18, 18, 0.15);
+  border-radius: 40px;
+  padding: 16px 0px 16px 20px;
+  width: 100%;
+}
+
+.blog_news_gmail::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.3);
+}
+
+.blog_news_gmail::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(18, 18, 18, 0.3);
+}
+
+.subscribeButton {
+  background: #007AFF;
+  border-radius: 38px;
+  transition: all 0.3s ease-in-out;
+}
+.subscribeButton:hover {
+  background: #8EB6E2;
+}
+
+.subscribeButtonText {
+  padding: 16px 0px;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.popular {
+  margin-top: 24px;
+}
+
+.popularGenText {
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #121212;
+}
+
+.popularSubText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: rgba(18, 18, 18, 0.85);
+}
+
+.popularSubText1 {
+  margin-bottom: 8px;
+}
