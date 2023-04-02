@@ -120,7 +120,7 @@
   color: #284DD4;
 }
 .current_page_item a {
-  color: #007AFF;
+  color: #007AFF!important;
 }
 .navigation_item {
   margin-left: 18px;
@@ -162,9 +162,10 @@
   font-size: 15px;
   line-height: 23px;
   color: #FAFAFA;
+  transition: color 0.3s ease-in-out;
 }
 .number:hover {
-  color: #FAFAFA;
+  color: #284DD4;
 }
 
 .work {
@@ -178,12 +179,17 @@
 
 .button {
   display: inline-block;
-  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
-  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
-  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
-  border-radius: 14px;
+  // background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  // background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  // background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  // border-radius: 14px;
+  overflow: hidden;
   display: block;
 }
+
+// .button:hover {
+//   background: linear-gradient(0deg, #2E4B8A, #2E4B8A), #292D32;
+// }
 
 .button_item {
   display: block;
@@ -194,9 +200,13 @@
   font-size: 13px;
   line-height: 16px;
   color: #FAFAFA;
+  background-color: #284DD4;
+  border-radius: 14px;
+  transition: background-color 0.3s ease-in-out;
 }
 .button_item:hover {
   color: #FAFAFA;
+  background-color: #2E4B8A;
 }
 
 
@@ -215,8 +225,7 @@
 
 .general_content {
   padding-top: 50px;
-  padding-bottom: 130px;
-
+  padding-bottom: 186px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,8 +280,8 @@
 
 .callBack_button {
   display: inline-block;
-  background: #284DD4;
-  border-radius: 14px;
+  // background: #284DD4;
+  // border-radius: 14px;
 }
 
 .callBack_button_item {
@@ -284,10 +293,17 @@
   font-size: 14px;
   line-height: 17px;
   color: #FAFAFA;
+  background-color: #284DD4;
+  border-radius: 14px;
+  transition: background-color 0.3s ease-in-out;
 }
 .callBack_button_item:hover {
   color: #FAFAFA;
+  background-color: #2E4B8A;
+
 }
+
+
 
 .arrow_right_for_adaptive {
   display: none;
@@ -312,7 +328,7 @@
   content: url("../img/arrow_right.svg");
   position: absolute;
   left: -15px;
-  top: 0px;
+  top: 2px;
 }
 
 .general_right {
@@ -558,9 +574,9 @@
 .calculateCost_button {
   padding: 13px 16px;
   display: inline-block;
-  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
-  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
-  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  // background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  // background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  // background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
   border-radius: 14px;
 }
 
@@ -572,7 +588,19 @@
   font-size: 13px;
   line-height: 16px;
   color: #FAFAFA;
+  background-color: #284DD4;
+  padding: 13px 16px;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 14px;
 }
+
+.calculateCost_buttonItem:hover {
+  color: #FAFAFA;
+  background-color: #2E4B8A;
+}
+
+
+
 
 /* ------------------------ TYPES OF TRANSPORTATION CONTENT ------------------- */
 
@@ -807,8 +835,8 @@
 /* ------------------------ THANKSGIVING ------------------- */
 
 .thanksgiving {
-  margin-top: 22px;
-  padding-bottom: 67px;
+  padding: 70px 0;
+  background-color: #F2F3F7;
 }
 
 .thanksgiving_MainText {
@@ -834,12 +862,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  img {
+    max-height:  500px;
+  }
 }
 
 .thanksgiving_card {
@@ -968,7 +1000,7 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#F8F8F8), to(#F8F8F8)), #E1E3E6;
   background: linear-gradient(0deg, #F8F8F8, #F8F8F8), #E1E3E6;
   border-radius: 12px;
-  padding: 24px 0px 10px 16px;
+  padding: 24px 10px 10px 16px;
   font-family: "Golos";
   font-style: normal;
   font-weight: 400;
@@ -999,9 +1031,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .formButton {
   display: inline-block;
-  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
-  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
-  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  // background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  // background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  // background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
   border-radius: 14px;
 }
 
@@ -1014,7 +1046,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 13px;
   line-height: 16px;
   color: #FAFAFA;
+  background-color: #284DD4!important;
+  border-radius: 14px;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.formButton_item:hover {
+  color: #FAFAFA;
+  background-color: #2E4B8A!important;
+}
+
 
 .agreement {
   font-family: "Golos";
@@ -1023,6 +1064,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 12px;
   line-height: 14px;
   color: rgba(18, 18, 18, 0.66);
+  max-width: 452px;
 }
 
 .turn_over {
@@ -1044,6 +1086,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
 .footer_container {
@@ -1117,6 +1164,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 14px;
   line-height: 144%;
   color: #FFFFFF;
+  transition: color 0.3s ease-in-out;
+}
+
+.gmail_two:hover {
+  color: #284DD4;
 }
 
 .footer_phone {
@@ -1138,13 +1190,21 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 14px;
   line-height: 144%;
   color: #FFFFFF;
+  transition: color 0.3s ease-in-out;
 }
+
+
+.tel_two:hover {
+  color: #284DD4;
+}
+
+
 
 .footer_button {
   display: inline-block;
-  background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
-  background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
-  background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
+  // background: -o-linear-gradient(bottom, #284DD4, #284DD4), #FFFFFF;
+  // background: -webkit-gradient(linear, left bottom, left top, from(#284DD4), to(#284DD4)), #FFFFFF;
+  // background: linear-gradient(0deg, #284DD4, #284DD4), #FFFFFF;
   border-radius: 14px;
 }
 
@@ -1157,7 +1217,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 13px;
   line-height: 16px;
   color: #FAFAFA;
+  background-color: #284DD4;
+  border-radius: 14px;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.footer_button_Item:hover {
+color: #FAFAFA;
+background-color: #2E4B8A;
+}
+
 
 .Privacy_Policy {
   margin-top: 53px;
@@ -1277,6 +1346,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
   .thanksgiving_card{
     width: 50%;
+  }
+  .thanksgiving_content img {
+    max-height: none;
+    width: 450px;
   }
 }
 
@@ -1425,6 +1498,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .footer {
+    .navigation {
+      gap: 10px;
+    }
+  }
   .navigation_item {
     font-size: 16px !important;
   }
@@ -1436,6 +1514,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
     overflow: hidden;
   }
   .logo {
+    flex-shrink: 0;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1473,6 +1552,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
     width: 100%;
   }
   .callBack_button_item {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1540,6 +1620,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   }
   .logo {
     margin-right: 10px;
+    flex-shrink: 0;
+  }
+  .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media (max-width: 1222px) {

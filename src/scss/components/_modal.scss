@@ -1,0 +1,146 @@
+.graph-modal__container {
+  padding: 40px 20px 40px 20px!important;
+}
+
+.graph-modal__close {
+  background-image: none;
+}
+
+.graph-modal__container-sps {
+  width: 342px!important;
+  height: 179px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 11px rgba(141, 141, 141, 0.15);
+  border-radius: 15px;
+}
+
+.send {
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    padding-bottom: 27px;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+  }
+  &__form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__form-wrapper input{
+    height: 60px;
+    width: 300px;
+    padding: 20px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  &__title-sps {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  &__descr-sps {
+    font-weight: 500;
+    padding-top: 23px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  &__form-wrapper .send__button {
+    background-color: #284DD4;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+  }
+  &__form-wrapper .send__button:hover {
+    background-color: #2E4B8A;
+  }
+}
+
+.send .container {
+  padding: 0;
+}
+
+.form__label--ab {
+  position: absolute;
+}
+
+@media (max-width: 1038px) {
+  .send__form-wrapper {
+    flex-direction: column;
+  }
+  .send__form-wrapper label {
+    width: 100%;
+  }
+  .send__button-group {
+    width: 100%;
+  }
+  .send__button-group input {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .send__form-wrapper label:first-child {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .send__form-wrapper input{
+    width: 100%;
+  }
+  .send__form-wrapper input {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .send__form-wrapper input {
+      font-size: 14px;
+  }
+  .send__form-wrapper input {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .send .header__cta {
+    display: block;
+    padding: 5px 10px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .send {
+    input {
+      font-size: 12px;
+    }
+  }
+}

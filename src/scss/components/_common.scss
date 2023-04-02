@@ -11,6 +11,10 @@
   font-size: 14px;
   a {
     color: #4f4f4f;
+    transition: color 0.3s ease-in-out;
+  }
+  a:hover {
+    color: #284DD4;
   }
 }
 .breadcrumb__title  {
@@ -73,8 +77,13 @@
     color: #284DD4;
   }
 }
-
+.breadcrumb__title--doc {
+  padding-top: 50px;
+}
 .common__header {
+  .hamburger .bar {
+    background-color: #4f4f4f;
+  }
   .header_up {
     background-color: #1a1c20;
   }
@@ -115,5 +124,26 @@
   }
   .header_content {
     margin-top: 20px;
+  }
+}
+
+.header_down_content {
+  padding-top: 10px;
+}
+
+
+.common .calculationFormMainText {
+  color: #4f4f4f;
+}
+
+@media (max-width: 1023px) {
+  .common__header  .menu-item a {
+    color: #ffffff;
+  }
+  .common__header .number {
+    color: #ffffff;
+  }
+  .common__header .work {
+    color: #ffffff;
   }
 }

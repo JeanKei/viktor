@@ -5,6 +5,7 @@
 import { mobileCheck } from "./functions/mobile-check";
 console.log(mobileCheck())
 
+
 // Определение ширины экрана
 // import { isMobile, isTablet, isDesktop } from './functions/check-viewport';
 // if (isDesktop()) {
@@ -84,3 +85,5 @@ console.log(mobileCheck())
 // };
 
 // validateForms('.form-1', rules1, afterForm);
+
+

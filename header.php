@@ -54,7 +54,9 @@
                                 <p class="work">Работаем с 8:00 по 17:00 МСК</p>
                             </div>
                         </div>
-                        <div class="button forPhone"><a class="button_item" href="#">Обратный звонок</a></div>
+                        <div class="button forPhone">
+                          <button class="button_item" data-graph-path="lead">Обратный звонок</button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -15,10 +15,8 @@
 
 .blogmain .categories ul {
   padding-top: 50px;
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 .blogmain .cat-item {
@@ -26,27 +24,98 @@
   box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.18), 0px 18px 52px rgba(215, 228, 249, 0.25);
   border-radius: 12px;
   padding: 10px;
-  width: 180px;
-  height: 90px;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-start;
   font-family: "Golos";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
+  flex-direction: column;
   // text-transform: uppercase;
   a {
     color: #4f4f4f;
     transition: color 0.3s ease-in-out;
+    text-align: left;
+    padding: 10px;
+    display: flex;
   }
 }
 
-.blogmain .cat-item:hover {
-  a {
+.blogmain .cat-item a:hover {
     color: #284DD4;
+}
+
+.blogmain .cat-item .children .cat-item{
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  text-transform: none;
+}
+.blogmain .cat-item .children {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+.blogmain .cat-item .children a{
+  padding: 0;
+  display: flex;
+}
+
+.blogmain .cat-item a:before {
+  content: "";
+  display: block;
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #007AFF;
+  border: 3px solid #80bdff;
+  cursor: pointer;
+  box-shadow: 0 0 0 #80bdff;
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #80bdff;
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #80bdff;
+    box-shadow: 0 0 0 0 #80bdff;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+@media (max-width: 991px) {
+  .blogmain .categories ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .blogmain .categories ul {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,0 +1,15 @@
+
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 199;
+  display: none;
+  padding: 8px 4px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid #fff;
+  img {
+    width: 30px;
+  }
+}

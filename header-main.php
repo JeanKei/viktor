@@ -60,7 +60,9 @@
                                         <p class="work">Работаем с 8:00 по 17:00 МСК</p>
                                     </div>
                                 </div>
-                                <div class="button forPhone"><a class="button_item" href="#">Обратный звонок</a></div>
+                                <div class="button forPhone">
+                                  <button class="button_item" data-graph-path="lead">Обратный звонок</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,13 +78,13 @@
                             в том числе предусматриваем особые гарантии по своевременной доставке грузов в договоре</p>
                         <div class="buttons_wrapper">
                             <div class="buttons_wrapper_content">
-                                <div class="callBack_button"><a class="callBack_button_item" href="#">Обратный
-                                        звонок</a>
+                                <div class="callBack_button">
+                                  <button class="callBack_button_item" data-graph-path="lead">Обратный звонок</button>
                                 </div>
                                 <div class="button2">
                                     <div class="button2_wrapper">
                                         <img class="arrow_right_for_adaptive" src="<?php echo get_template_directory_uri() ?>/app/img/arrow_right.svg" alt="">
-                                        <a class="button2_item" href="#">Рассчитать стоимость перевозки</a>
+                                        <a class="button2_item" href="#calculation">Рассчитать стоимость перевозки</a>
                                     </div>
                                 </div>
                             </div>

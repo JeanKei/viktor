@@ -49,7 +49,7 @@
                             <p class="specifications_item">Объем: <span>10-20м³</span></p>
                             <p class="specifications_item">Габариты (м): <span>3 × 1,9 × 2,2</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                             <p class="specifications_item">Объем: <span>до 26м³</span></p>
                             <p class="specifications_item">Габариты (м): <span>5 × 2,2 × 2,2</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <p class="specifications_item">Объем: <span>до 45м³</span></p>
                             <p class="specifications_item">Габариты (м): <span>6 × 2,45 × 2,4</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                             <p class="specifications_item">Объем: <span>до 60м³</span></p>
                             <p class="specifications_item">Габариты (м): <span>8 × 2,4 × 2,4</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                             <p class="specifications_item">Объем: <span>до 82м³</span></p>
                             <p class="specifications_item">Габариты (м): <span>13,6 × 2,45 × 2,6</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                             <p class="specifications_item">Тралы</p>
                             <p class="specifications_spanitem"><span>Для перевозки негабарита</span></p>
                         </div>
-                        <div class="calculateCost_button"><a href="#" class="calculateCost_buttonItem">Рассчитать
+                        <div class="calculateCost_button"><a href="#calculation" class="calculateCost_buttonItem">Рассчитать
                                 стоимость</a></div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="transportation_card_content one">
 
                         <p class="transportation_card_MainText">Коммерческие перевозки</p>
-                        <p class="transportation_card_SubText">Мы делаем перевозку попутной машиной с оплатой <br> за
+                        <p class="transportation_card_SubText">Мы делаем перевозку попутной машиной с оплатой за
                             одну сторону перевозки</p>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                 <div class="transportation_card two">
                     <div class="transportation_card_content two">
                         <p class="transportation_card_MainText">Негабаритные перевозки</p>
-                        <p class="transportation_card_SubText">В нашем автопарке есть тралы и низкорамники для <br>
+                        <p class="transportation_card_SubText">В нашем автопарке есть тралы и низкорамники для
                             доставки негабаритного груза по России</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                 <div class="transportation_card three">
                     <div class="transportation_card_content three">
                         <p class="transportation_card_MainText">Перевозка автомобилей</p>
-                        <p class="transportation_card_SubText">Наша компания осуществляет перевозку <br> автомобилей по
+                        <p class="transportation_card_SubText">Наша компания осуществляет перевозку автомобилей по
                             России попутным транспортом</p>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                     <div class="transportation_card_content_four_wrapper">
                         <div class=" transportation_card_content fours_content">
                             <p class="transportation_card_MainText">Домашние переезды</p>
-                            <p class="transportation_card_SubText">Мы осуществляем домашние переезды отдельной <br>
+                            <p class="transportation_card_SubText">Мы осуществляем домашние переезды отдельной
                                 попутной машиной либо догрузом</p>
                         </div>
                     </div>
@@ -227,22 +227,20 @@
             <p class="thanksgiving_MainText">Благодарственные</p>
             <p class="thanksgiving_SubText">письма</p>
             <div class="thanksgiving_content">
-                <div class="thanksgiving_card">
-                    <img src="<?php echo get_template_directory_uri() ?>/app/img/thanksgiving_img.png" alt="thanksgiving_img" class="thanksgiving_img">
-                </div>
-
-                <div class="thanksgiving_card displayNoneTablet_forPhone">
-                    <img src="<?php echo get_template_directory_uri() ?>/app/img/thanksgiving_img.png" alt="thanksgiving_img" class="thanksgiving_img">
-                </div>
-
-                <div class="thanksgiving_card displayNoneTablet">
-                    <img src="<?php echo get_template_directory_uri() ?>/app/img/thanksgiving_img.png" alt="thanksgiving_img" class="thanksgiving_img">
-                </div>
+              <a href="<?php echo get_template_directory_uri() ?>/app/img/pismo3.jpg" data-fancybox="gallery" data-caption="Благодарственное письмо #1">
+                <img src="<?php echo get_template_directory_uri() ?>/app/img/pismo3.jpg" />
+              </a>
+              <a href="<?php echo get_template_directory_uri() ?>/app/img/pismo1.jpg" data-fancybox="gallery" data-caption="Благодарственное письмо #2">
+                <img src="<?php echo get_template_directory_uri() ?>/app/img/pismo1.jpg" />
+              </a>
+              <a href="<?php echo get_template_directory_uri() ?>/app/img/pismo2.jpg" data-fancybox="gallery" data-caption="Благодарственное письмо #3">
+                <img src="<?php echo get_template_directory_uri() ?>/app/img/pismo2.jpg" />
+              </a>
             </div>
         </div>
     </div>
 
-    <div class="calculation">
+    <div class="calculation" id="calculation">
         <div class="container">
             <p class="calculationMainText">Расчет</p>
             <p class="calculationSubText">стоимости</p>
@@ -252,59 +250,65 @@
                         <p class="calculationFormMainText"><span>Заполните форму для заказа</span> расчета стоимости
                             <br> переезда.Мы перезвоним Вам, после подготовки расчета.
                         </p>
-                        <div class="calculation_form_content_wrapper">
-                            <div class="calculation_form_content">
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Ваше имя</label>
-                                    <input class="calculation_input" type="text">
-                                </div>
-
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Ваш номер телефона</label>
-                                    <input class="calculation_input" type="tel">
-                                </div>
-
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Откуда</label>
-                                    <label class="turn_over_for_small_notebook" for="#"><img
-                                            class="turn_over_for_small_notebook_item" src="<?php echo get_template_directory_uri() ?>/app/img/turn_over.svg"
-                                            alt="TurnOver"></label>
-                                    <label class="turn_over_for_tablet" for="#"><img class="turn_over_for_tablet_item"
-                                            src="<?php echo get_template_directory_uri() ?>/app/img/up_down_vector.svg" alt="Up_Down_Vector"></label>
-                                    <input class="calculation_input" type="text">
-                                </div>
-                                <div class="turn_over">
-                                    <img class="turn_over_img" src="<?php echo get_template_directory_uri() ?>/app/img/turn_over.svg" alt="turn_overimg">
-                                </div>
-
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Куда</label>
-                                    <input class="calculation_input" type="text">
-                                </div>
-
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Дата</label>
-
-                                    <input class="calculation_input" type="date" id="start" name="trip-start"
-                                        value="2023-08-18" min="2023-01-01" max="2023-12-31">
-                                </div>
-                                <div class="calculation_input_wrapper">
-                                    <label class="label">Что планируете перевести</label>
-                                    <input class="calculation_input" type="text">
-                                </div>
+                        <form class="calculation_form_content_wrapper form-2" method="post" >
+                          <div class="calculation_form_content">
+                            <label class="form__label form__label--ab">
+                              <input class="send__data input-data1" data-validate-field="data" name="Раздел" type="hidden" value="Калькулятор">
+                            </label>
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Ваше имя</label>
+                                <input class="calculation_input input-name1" data-validate-field="name" name="Имя" type="text">
                             </div>
 
-                            <div class="calculation_input_wrapper widhMax">
-                                <label class="label">Необходимый грузовой автомобиль</label>
-                                <input class="calculation_input" type="text">
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Ваш номер телефона</label>
+                                <input class="calculation_input input-tel1" data-validate-field="tel" name="Телефон" type="tel">
                             </div>
 
-                            <div class="formButton_and_agreement">
-                                <div class="formButton"><a class="formButton_item" href="#">Отправить заявку</a></div>
-                                <p class="agreement">Заполняя форму, Вы даете согласие на обработку <br> персональных
-                                    данных. Данные не будут переданы 3м лицам.</p>
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Откуда</label>
+                                <label class="turn_over_for_small_notebook" for="#"><img
+                                        class="turn_over_for_small_notebook_item" src="<?php echo get_template_directory_uri() ?>/app/img/turn_over.svg"
+                                        alt="TurnOver"></label>
+                                <label class="turn_over_for_tablet" for="#"><img class="turn_over_for_tablet_item"
+                                        src="<?php echo get_template_directory_uri() ?>/app/img/up_down_vector.svg" alt="Up_Down_Vector"></label>
+                                <input class="calculation_input input-city1" data-validate-field="name" name="Откуда" type="text">
                             </div>
-                        </div>
+                            <div class="turn_over">
+                                <!-- <img class="turn_over_img" src="<?php echo get_template_directory_uri() ?>/app/img/turn_over.svg" alt="turn_overimg"> -->
+                            </div>
+
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Куда</label>
+                                <input class="calculation_input input-city2" data-validate-field="name" name="Куда" type="text">
+                            </div>
+
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Дата</label>
+
+                                <input class="calculation_input input-date" data-validate-field="date" name="Дата" type="date" id="start"
+                                   min="2023-01-01" max="2023-12-31">
+                            </div>
+                            <div class="calculation_input_wrapper">
+                                <label class="label">Что планируете перевести</label>
+                                <input class="calculation_input input-what" data-validate-field="name" name="Что" type="text">
+                            </div>
+                          </div>
+
+                          <div class="calculation_input_wrapper widhMax">
+                              <label class="label">Необходимый грузовой автомобиль</label>
+                              <input class="calculation_input input-car" data-validate-field="name" name="Машина" type="text">
+                          </div>
+
+                          <div class="formButton_and_agreement">
+                              <div class="formButton">
+                                <!-- <a class="formButton_item" href="#">Отправить заявку</a> -->
+                                <input class="formButton_item btn-reset" value="Отправить заявку" type="submit">
+                              </div>
+                              <p class="agreement">Заполняя форму, Вы даете согласие на обработку персональных
+                                  данных. Данные не будут переданы 3м лицам.</p>
+                          </div>
+                        </form>
                     </div>
                 </div>
             </div>

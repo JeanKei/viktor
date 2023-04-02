@@ -44,19 +44,20 @@ export const validateForms = (selector, rules, afterSend) => {
     let formData = new FormData(ev.target);
 
     let xhr = new XMLHttpRequest();
+    afterSend();
 
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
           if (afterSend) {
-            afterSend();
+            // afterSend();
           }
           console.log('Отправлено');
         }
       }
     }
 
-    xhr.open('POST', 'mail.php', true);
+    xhr.open('POST', 'http://tk-viktor-dev/wp-content/themes/logistic/app/mail.php', true);
     xhr.send(formData);
 
     ev.target.reset();

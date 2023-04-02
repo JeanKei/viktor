@@ -26,8 +26,9 @@
 .blog_cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 
 .blog_card {
@@ -49,6 +50,7 @@
   border: 1px solid rgba(18, 18, 18, 0.05);
   box-shadow: -15px -16px 44px rgba(215, 228, 249, 0.14), 0px 18px 52px rgba(215, 228, 249, 0.28);
   border-radius: 0px 0px 16px 16px;
+  height: 250px;
 }
 
 .blogCardText {
@@ -63,6 +65,11 @@
   transition: all 0.3s ease-in-out;
   color: #000000;
   max-width: 300px;
+  &--title {
+    text-transform: uppercase;
+    font-weight: 600!important;
+    margin-bottom: 0!important;
+  }
 }
 .blogCardText:hover {
   color: #007AFF;
@@ -370,4 +377,8 @@
 
 .popularSubText1 {
   margin-bottom: 8px;
+}
+
+.blog_b-wrap {
+  display: flex;
 }

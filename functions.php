@@ -6,10 +6,12 @@ add_action( 'wp_enqueue_scripts', function(){
   wp_enqueue_style( 'znam-vendor', get_stylesheet_directory_uri() . '/app/css/vendor.css' );
   wp_enqueue_style( 'znam-style', get_stylesheet_directory_uri() . '/app/css/main.css' );
   wp_enqueue_style( 'znam-fonts', get_stylesheet_directory_uri() . '/app/font/fonts.css' );
+  wp_enqueue_style( 'znam-fan', get_stylesheet_directory_uri() . '/app/fancybox/fancybox.css' );
 
-  // wp_enqueue_script( 'jquery' );
-  wp_enqueue_script('znam-js', get_template_directory_uri() . '/app/js/main.js', array(), '20151218', true);
-
+  wp_deregister_script('jquery');
+  wp_enqueue_script('jquery', get_template_directory_uri() . '/app/fancybox/jquery-3.6.3.min.js', array(), '20151217', true);
+  wp_enqueue_script('fancybox-js', get_template_directory_uri() . '/app/fancybox/fancybox.umd.js', array(), '20151218', true);
+  wp_enqueue_script('znam-js', get_template_directory_uri() . '/app/js/main.js', array(), '20151219', true);
 });
 
 

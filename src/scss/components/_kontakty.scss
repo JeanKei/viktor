@@ -1,0 +1,33 @@
+.kontakty {
+  &__img {
+    width: 50px;
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    padding-bottom: 20px;
+  }
+  &__text:last-child {
+    padding-bottom: 0px;
+  }
+  &__card {
+    padding-bottom: 50px;
+  }
+  &__title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  &__page {
+    padding: 70px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .calculation-page-price__wrap {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
